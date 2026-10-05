@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alisander Qoshqosh — Rust &amp; Blockchain Engineering</title>
+  <meta name="description" content="Independent Rust and blockchain engineer: smart contracts (EVM, Arbitrum Stylus), applied cryptography, Rust backends and architecture consulting. Remote, worldwide.">
+  <meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Alisander Qoshqosh — Rust &amp; Blockchain Engineering">
+  <meta property="og:description" content="Smart contracts, applied cryptography and Rust systems, delivered under contract. Built OpenZeppelin's Stylus contracts library (3 audits passed).">
+  <meta property="og:url" content="https://qalisander.github.io/">
+  <link rel="canonical" href="https://qalisander.github.io/">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Alisander Qoshqosh",
+    "url": "https://qalisander.github.io/",
+    "description": "Independent Rust and blockchain engineering: smart contracts, applied cryptography, Rust backends and architecture consulting.",
+    "email": "qalisander@gmail.com",
+    "areaServed": "Worldwide",
+    "founder": {
+      "@type": "Person",
+      "name": "Alisander Qoshqosh",
+      "jobTitle": "Software engineer",
+      "alumniOf": "Moscow Institute of Physics and Technology",
+      "sameAs": ["https://github.com/qalisander", "https://t.me/qalisander"]
+    },
+    "knowsAbout": ["Rust", "Smart contracts", "Arbitrum Stylus", "EVM", "Solidity", "Applied cryptography", "MPC", "Zero-knowledge", "Distributed systems"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-mark" aria-hidden="true">aq</span>
+        <span class="brand-name">Alisander Qoshqosh</span>
+      </a>
+      <nav aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#talks">Talks</a>
+        <a href="#engagement">Engagement</a>
+        <a class="nav-cta" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="wrap">
+        <p class="badge"><span class="dot" aria-hidden="true"></span>Available for contract work</p>
+        <p class="eyebrow">Independent engineer · Remote, worldwide</p>
+        <h1>Rust &amp; blockchain engineering, from design through&nbsp;audit.</h1>
+        <p class="lede">
+          I design and build smart contracts, cryptographic primitives and high-load Rust systems
+          for Web3 teams and enterprises. Engagements are scoped as deliverables, on a fixed-scope or retainer basis.
+        </p>
+        <div class="actions">
+          <a class="btn btn-primary" href="mailto:qalisander@gmail.com?subject=Project%20inquiry">Discuss a project</a>
+          <a class="btn btn-ghost" href="./assets/alisander-qoshqosh-cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+          <a class="btn btn-ghost" href="https://github.com/qalisander" target="_blank" rel="me noopener">GitHub ↗</a>
+        </div>
+        <ul class="facts" aria-label="Highlights">
+          <li><strong>3 audits</strong><span>passed on the OpenZeppelin Stylus contracts library</span></li>
+          <li><strong>EthCC'25</strong><span>speaker, plus Arbiverse'24 in Bangkok</span></li>
+          <li><strong>2017</strong><span>shipping production software since</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Services</h2>
+          <p>Senior-level engineering, delivered personally. Each engagement starts with a written scope that sets out milestones, deliverables and acceptance criteria.</p>
+        </div>
+        <div class="grid cards">
+          <article class="card">
+            <span class="card-num">01</span>
+            <h3>Smart contracts</h3>
+            <p>Solidity on the EVM and Rust on Arbitrum Stylus. Token standards, proxies and upgradeability, gas optimisation, and test suites built to hold up under an audit.</p>
+            <ul class="tags"><li>Rust</li><li>Stylus</li><li>Solidity</li><li>WASM</li><li>L2</li></ul>
+          </article>
+          <article class="card">
+            <span class="card-num">02</span>
+            <h3>Applied cryptography</h3>
+            <p>On-chain-efficient primitives: big integers, Montgomery finite fields, ZK-friendly Poseidon and Pedersen hashes, EdDSA. Off-chain MPC threshold signing and secret sharing.</p>
+            <ul class="tags"><li>ZK hashes</li><li>MPC / TSS</li><li>ECDSA</li><li>EdDSA</li><li>Shamir</li></ul>
+          </article>
+          <article class="card">
+            <span class="card-num">03</span>
+            <h3>Rust backends &amp; high-load systems</h3>
+            <p>Async services for exchanges, wallets and telecom platforms that serve millions of users. Messaging, caching, CI pipelines and protocol-compatibility testing.</p>
+            <ul class="tags"><li>Tokio</li><li>Kafka</li><li>NATS</li><li>Redis</li><li>k8s</li></ul>
+          </article>
+          <article class="card">
+            <span class="card-num">04</span>
+            <h3>Architecture &amp; due diligence</h3>
+            <p>Architecture reviews, monolith decomposition, Rust adoption plans, pre-audit hardening and technical due diligence for investors and acquirers.</p>
+            <ul class="tags"><li>Reviews</li><li>Rust adoption</li><li>Audit prep</li><li>Mentoring</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="work">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Selected work</h2>
+          <p>Representative projects. Most of the recent work is open source and linked below. Work under NDA is listed without details.</p>
+        </div>
+        <ol class="work-list">
+          <li class="work-item">
+            <div class="work-meta">
+              <span class="org">OpenZeppelin</span>
+              <span class="years">2024 – present</span>
+            </div>
+            <div class="work-body">
+              <h3>First smart-contract library for Arbitrum Stylus</h3>
+              <p>Shipped the first open-source contracts library for the <a href="https://arbitrum.io/stylus" target="_blank" rel="noopener">Stylus VM</a>, an EVM-compatible WASM runtime. It covers ERC-20, <a href="https://github.com/OpenZeppelin/rust-contracts-stylus/pull/23" target="_blank" rel="noopener">ERC-721</a>, ERC-1155, proxies and more. The library has passed <a href="https://github.com/OpenZeppelin/rust-contracts-stylus/tree/main/audits" target="_blank" rel="noopener">three security audits</a>, and I had a major hand in shaping the first <a href="https://github.com/OpenZeppelin/stylus-test-helpers" target="_blank" rel="noopener">test framework</a> for Stylus.</p>
+              <ul class="tags"><li>Rust</li><li>Stylus</li><li>EVM</li><li>WASM</li></ul>
+              <p class="links"><a href="https://github.com/OpenZeppelin/rust-contracts-stylus" target="_blank" rel="noopener">github.com/OpenZeppelin/rust-contracts-stylus ↗</a></p>
+            </div>
+          </li>
+          <li class="work-item">
+            <div class="work-meta">
+              <span class="org">OpenZeppelin</span>
+              <span class="years">2024 – 2025</span>
+            </div>
+            <div class="work-body">
+              <h3>On-chain cryptography library</h3>
+              <p>Led development of a gas-efficient cryptography module: <a href="https://github.com/OpenZeppelin/rust-contracts-stylus/pull/495" target="_blank" rel="noopener">big integers</a>, Montgomery-form <a href="https://github.com/OpenZeppelin/rust-contracts-stylus/pull/376" target="_blank" rel="noopener">finite fields</a>, the ZK-friendly Poseidon hash, the <a href="https://github.com/OpenZeppelin/rust-contracts-stylus/pull/644" target="_blank" rel="noopener">Pedersen hash</a> and <a href="https://github.com/OpenZeppelin/rust-contracts-stylus/pull/757" target="_blank" rel="noopener">Ed25519 signatures</a>. Poseidon on Stylus runs 18× cheaper in gas than the Solidity equivalent.</p>
+              <ul class="tags"><li>Rust</li><li>Finite fields</li><li>Poseidon</li><li>EdDSA</li></ul>
+            </div>
+          </li>
+          <li class="work-item">
+            <div class="work-meta">
+              <span class="org">Gridlock</span>
+              <span class="years">2023 – 2024</span>
+            </div>
+            <div class="work-body">
+              <h3>MPC threshold signing for a decentralised wallet</h3>
+              <p>Built a production Rust library for multi-party key generation, transaction signing and key recovery, based on the <a href="https://eprint.iacr.org/2020/540.pdf" target="_blank" rel="noopener">Gennaro–Goldfeder 2020</a> protocol. Added 2FA secret recovery with Shamir's secret sharing, and set up CI that runs integration tests and MPC protocol-compatibility checks.</p>
+              <ul class="tags"><li>Rust</li><li>MPC</li><li>ECDSA</li><li>EdDSA</li><li>NATS</li></ul>
+            </div>
+          </li>
+          <li class="work-item">
+            <div class="work-meta">
+              <span class="org">Kraken</span>
+              <span class="years">2022</span>
+            </div>
+            <div class="work-body">
+              <h3>Crypto exchange backend</h3>
+              <p>Rust services for a top-tier crypto exchange. Details are under NDA.</p>
+              <ul class="tags"><li>Rust</li><li>Tokio</li><li>Kafka</li><li>k8s</li></ul>
+            </div>
+          </li>
+          <li class="work-item">
+            <div class="work-meta">
+              <span class="org">VEON · Beeline</span>
+              <span class="years">2020 – 2022</span>
+            </div>
+            <div class="work-body">
+              <h3>High-load telecom platform, ~160M subscribers</h3>
+              <p>Designed and built the backend for Beeline's best-selling 2021 product, "Your Decision". Led the split of a monolith into services and the team's adoption of Rust. Interviewed candidates and mentored junior engineers.</p>
+              <ul class="tags"><li>C# / .NET</li><li>Rust</li><li>Kafka</li><li>Elasticsearch</li></ul>
+            </div>
+          </li>
+          <li class="work-item">
+            <div class="work-meta">
+              <span class="org">MTS</span>
+              <span class="years">2019 – 2020</span>
+            </div>
+            <div class="work-body">
+              <h3>Auth service and RPC performance, ~80M subscribers</h3>
+              <p>Built a role-based authorisation service and its client library. Wrote custom serialization for the WCF RPC framework, which cut SOAP message size by 40% and halved backend latency on heavy queries.</p>
+              <ul class="tags"><li>C# / .NET</li><li>gRPC</li><li>Oracle</li><li>PostgreSQL</li></ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="talks">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Talks &amp; writing</h2>
+          <p>Talks and writing on Rust smart contracts and on-chain cryptography for the Ethereum and Arbitrum communities.</p>
+        </div>
+        <div class="grid media">
+          <a class="media-card" href="https://www.youtube.com/watch?v=phKxOxDpot4" target="_blank" rel="noopener">
+            <img src="https://i.ytimg.com/vi/phKxOxDpot4/hqdefault.jpg" alt="EthCC 2025 talk thumbnail" loading="lazy" width="480" height="360">
+            <span class="media-kind">Talk · EthCC'25, Cannes</span>
+            <span class="media-title">Arbitrum Stylus with Rust: Are we EVM yet?</span>
+          </a>
+          <a class="media-card" href="https://www.youtube.com/watch?v=9p2fqHYSd6I&amp;t=60" target="_blank" rel="noopener">
+            <img src="https://i.ytimg.com/vi/9p2fqHYSd6I/hqdefault.jpg" alt="Arbiverse Bangkok workshop thumbnail" loading="lazy" width="480" height="360">
+            <span class="media-kind">Workshop · Arbiverse'24, Bangkok</span>
+            <span class="media-title">Intro to OpenZeppelin Stylus Libraries and Utilities</span>
+          </a>
+          <a class="media-card media-card-text" href="https://www.openzeppelin.com/news/poseidon-go-brr-with-stylus-cryptographic-functions-are-18x-more-gas-efficient-via-rust-on-arbitrum" target="_blank" rel="noopener">
+            <span class="media-figure" aria-hidden="true"><span>18×</span><small>cheaper gas</small></span>
+            <span class="media-kind">Article · OpenZeppelin blog</span>
+            <span class="media-title">Poseidon go brr with Stylus: cryptographic functions are 18× more gas-efficient via Rust on Arbitrum</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="engagement">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>How engagements work</h2>
+          <p>I contract directly with clients as an independent business. These are the default terms, and each services agreement can adjust them.</p>
+        </div>
+        <dl class="terms">
+          <div class="term">
+            <dt>Scope &amp; pricing</dt>
+            <dd>Fixed-scope statements of work or time-and-materials retainers. Milestones, deliverables and acceptance criteria are agreed in writing before work starts.</dd>
+          </div>
+          <div class="term">
+            <dt>Invoicing</dt>
+            <dd>Monthly invoices against delivered milestones or logged hours, paid by bank transfer. Currency and payment terms are set in the agreement.</dd>
+          </div>
+          <div class="term">
+            <dt>Working model</dt>
+            <dd>Fully remote and asynchronous by default, with regular written status updates. I use my own equipment, software and infrastructure.</dd>
+          </div>
+          <div class="term">
+            <dt>Who does the work</dt>
+            <dd>I do all the work personally. No subcontracting without the client's written agreement.</dd>
+          </div>
+          <div class="term">
+            <dt>Confidentiality &amp; IP</dt>
+            <dd>NDAs and IP assignment are available on request. Open-source deliverables are published under the licence the client chooses.</dd>
+          </div>
+          <div class="term">
+            <dt>Response time</dt>
+            <dd>Initial reply within one business day. A written proposal follows within three business days of the intro call.</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="wrap about">
+        <div class="section-head">
+          <h2>About</h2>
+        </div>
+        <div class="about-body">
+          <p>
+            I'm a self-directed software engineer with experience across open source, startup MVPs and
+            high-load enterprise systems at telecoms with tens of millions of users. For the past several years
+            I've worked in Rust, in blockchain infrastructure and applied cryptography.
+          </p>
+          <p>
+            I advocate functional programming and the KISS principle: code that is simple to review is
+            simpler to audit. I studied Applied Mathematics and Control at the
+            <a href="https://eng.mipt.ru/" target="_blank" rel="noopener">Moscow Institute of Physics and Technology</a> (MIPT).
+          </p>
+          <div class="stack">
+            <h3>Stack</h3>
+            <ul class="tags tags-lg">
+              <li>Rust</li><li>Solidity</li><li>Arbitrum Stylus</li><li>EVM</li><li>WASM</li>
+              <li>Tokio</li><li>Actix</li><li>Kafka</li><li>NATS</li><li>Redis</li>
+              <li>PostgreSQL</li><li>MongoDB</li><li>Kubernetes</li><li>GitHub Actions</li>
+              <li>TypeScript</li><li>C# / .NET</li>
+            </ul>
+          </div>
+          <div class="how">
+            <h3>Working style</h3>
+            <ul class="how-list">
+              <li><strong>Simple first.</strong> The smallest design that solves the problem is the easiest one to audit.</li>
+              <li><strong>Tested, reviewable PRs.</strong> Changes are small, and each one comes with tests and benchmarks where they matter.</li>
+              <li><strong>Written decisions.</strong> Design notes and status updates are written down, so decisions outlast the call.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-contact" id="contact">
+      <div class="wrap">
+        <div class="contact-card">
+          <p class="badge"><span class="dot" aria-hidden="true"></span>Available for contract work</p>
+          <h2>Have a protocol to build or a codebase to harden?</h2>
+          <p>Send a short description of the project, your timeline and a budget range.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="mailto:qalisander@gmail.com?subject=Project%20inquiry">qalisander@gmail.com</a>
+            <a class="btn btn-ghost" href="https://t.me/qalisander" target="_blank" rel="me noopener">Telegram ↗</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/services/page/2800123474194a8554/" target="_blank" rel="me noopener">LinkedIn ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <span>© <span id="year">2026</span> Alisander Qoshqosh</span>
+      <span class="muted">Independent contractor · Rust &amp; blockchain engineering</span>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
